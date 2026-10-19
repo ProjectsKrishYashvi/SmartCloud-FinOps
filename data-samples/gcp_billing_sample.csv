@@ -1,0 +1,4 @@
+tenant_id,provider,service,usage,cost,timestamp,source_instance
+tenantA,gcp,Compute,100,3600,2024-07-14T00:00:00Z,n2-standard-4
+tenantA,gcp,Storage,180,700,2024-07-19T00:00:00Z,
+tenantB,gcp,Database,40,1100,2024-07-26T00:00:00Z, 

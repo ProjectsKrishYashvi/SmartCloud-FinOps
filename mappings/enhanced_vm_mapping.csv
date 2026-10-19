@@ -1,0 +1,7 @@
+provider,source_instance,aws_equivalent,azure_equivalent,gcp_equivalent,estimated_aws_monthly,estimated_azure_monthly,estimated_gcp_monthly
+azure,D4s_v3,t3.large,D4s_v3,n2-standard-4,10500,12000,12500
+azure,D2s_v3,t3.medium,D2s_v3,n1-standard-2,7000,8000,8500
+azure,D8s_v3,t3.xlarge,D8s_v3,n2-standard-8,21000,24000,25000
+gcp,n2-standard-4,t3.large,D4s_v3,n2-standard-4,10500,12000,12500
+gcp,n1-standard-2,t3.medium,D2s_v3,n1-standard-2,7000,8000,8500
+gcp,n2-standard-8,t3.xlarge,D8s_v3,n2-standard-8,21000,24000,25000

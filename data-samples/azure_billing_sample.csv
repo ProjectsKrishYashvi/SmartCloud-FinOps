@@ -1,0 +1,4 @@
+tenant_id,provider,service,usage,cost,timestamp,source_instance
+tenantA,azure,Compute,120,3400,2024-07-15T00:00:00Z,D4s_v3
+tenantA,azure,Storage,200,800,2024-07-20T00:00:00Z,
+tenantB,azure,Database,50,1500,2024-07-25T00:00:00Z, 

@@ -1,0 +1,38 @@
+{
+  "feature_columns": [
+    "usage_hours",
+    "monthly_cost",
+    "on_demand_ratio",
+    "reserved_ratio",
+    "weekday_vs_weekend_ratio",
+    "compliance_required",
+    "performance_priority",
+    "data_sovereignty",
+    "aws_cost",
+    "azure_cost",
+    "gcp_cost",
+    "region_ap-south-1",
+    "region_ap-southeast-1",
+    "region_eu-west-1",
+    "region_us-east-1",
+    "region_us-west-2",
+    "cost_sensitivity_high",
+    "cost_sensitivity_low",
+    "cost_sensitivity_medium",
+    "instance_family_compute",
+    "instance_family_general",
+    "instance_family_memory"
+  ],
+  "label_mapping": {
+    "aws": 0,
+    "azure": 1,
+    "gcp": 2
+  },
+  "reverse_mapping": {
+    "0": "aws",
+    "1": "azure",
+    "2": "gcp"
+  },
+  "accuracy": 0.999,
+  "log_loss": 0.00392314122011052
+}

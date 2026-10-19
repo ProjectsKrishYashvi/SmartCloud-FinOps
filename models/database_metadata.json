@@ -1,0 +1,31 @@
+{
+  "feature_columns": [
+    "db_storage_gb",
+    "db_usage_hours",
+    "iops_estimate",
+    "read_write_mix",
+    "multi_az",
+    "monthly_cost",
+    "compliance_required",
+    "region_ap-south-1",
+    "region_ap-southeast-1",
+    "region_eu-west-1",
+    "region_us-east-1",
+    "region_us-west-2",
+    "cost_sensitivity_high",
+    "cost_sensitivity_low",
+    "cost_sensitivity_medium"
+  ],
+  "label_mapping": {
+    "aws": 0,
+    "azure": 1,
+    "gcp": 2
+  },
+  "reverse_mapping": {
+    "0": "aws",
+    "1": "azure",
+    "2": "gcp"
+  },
+  "accuracy": 0.6518,
+  "log_loss": 0.7394236346441436
+}

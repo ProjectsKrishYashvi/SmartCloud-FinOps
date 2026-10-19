@@ -1,0 +1,49 @@
+{
+  "feature_columns": [
+    "region_us_east",
+    "region_us_west",
+    "region_eu_west",
+    "region_ap_south",
+    "region_ap_southeast",
+    "service_compute",
+    "service_storage",
+    "service_database",
+    "service_ml",
+    "service_hpc",
+    "service_api",
+    "cost_sensitivity_high",
+    "cost_sensitivity_medium",
+    "cost_sensitivity_low",
+    "workload_small",
+    "workload_medium",
+    "workload_large",
+    "current_aws",
+    "current_azure",
+    "current_gcp",
+    "compliance_required",
+    "performance_priority",
+    "data_sovereignty",
+    "aws_cost",
+    "azure_cost",
+    "gcp_cost",
+    "cost_range",
+    "min_cost",
+    "max_cost",
+    "aws_relative_cost",
+    "azure_relative_cost",
+    "gcp_relative_cost"
+  ],
+  "provider_mapping": {
+    "aws": 0,
+    "azure": 1,
+    "gcp": 2
+  },
+  "reverse_mapping": {
+    "0": "aws",
+    "1": "azure",
+    "2": "gcp"
+  },
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth": 10
+}

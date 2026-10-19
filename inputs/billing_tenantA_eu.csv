@@ -1,0 +1,6 @@
+tenant_id,service,provider,usage_amount,unit,region,cost
+tenantA,Database,AWS,620,hours,eu-west-1,1550
+tenantA,Compute,GCP,700,hours,eu-west-1,3700
+tenantA,Storage,Azure,1000,GB,eu-west-1,950
+
+
